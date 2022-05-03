@@ -1,4 +1,6 @@
 provider "aws" {
   region  = var.region
-  profile = var.perfil
+  access_key = 
+  secret_key = 
+  token      = 
 }

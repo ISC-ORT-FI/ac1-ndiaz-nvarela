@@ -37,7 +37,6 @@ resource "aws_lb_listener" "ac1-listner" {
   }
 }
 
-
 resource "aws_lb_listener_rule" "ac1-listener-rule" {
   listener_arn = aws_lb_listener.ac1-listner.arn
   priority     = 100
